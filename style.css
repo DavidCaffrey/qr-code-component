@@ -6,19 +6,33 @@
 
 body{
     background-color: var(--main-bg-color);
-    
+    font-family: 'Outfit', sans-serif;
 }
 
 .card-container{
     width: 320px;
     height: 497px;
-    background-color: var(--white-color)
-   
+    background-color: var(--white-color);
+    margin: 100px auto;
+    border-radius: 10px;
 }
 
-.qr-img{
-    width:100%;
+.image-container{
+    padding: 10px;
+}
 
+
+
+.qr-img{
+    display:block;
+    width:95%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.main-heading{
+    width: 90%;
+    margin: 10px auto;
+    padding-left: 20px;
 }
 
 
