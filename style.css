@@ -1,0 +1,28 @@
+:root{
+    --white-color:hsl(0, 0%, 100%);
+    --main-bg-color:hsl(212, 45%, 89%);
+}
+
+
+body{
+    background-color: var(--main-bg-color);
+    
+}
+
+.card-container{
+    width: 320px;
+    height: 497px;
+    background-color: var(--white-color)
+   
+}
+
+.qr-img{
+    width:100%;
+
+}
+
+
+
+/*  FRONTEND MENTOR STYLES */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
