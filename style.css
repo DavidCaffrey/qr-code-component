@@ -1,42 +1,71 @@
-:root{
-    --white-color:hsl(0, 0%, 100%);
-    --main-bg-color:hsl(212, 45%, 89%);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --main-bg-color: hsl(212, 45%, 89%);
+  --main-gray-blue: hsl(220, 15%, 55%);
+  --main-dark-blue: hsl(218, 44%, 22%);
 }
 
-
-body{
-    background-color: var(--main-bg-color);
-    font-family: 'Outfit', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid greenyellow; */
+}
+html {
+  font-size: 62.5%;
 }
 
-.card-container{
-    width: 320px;
-    height: 497px;
-    background-color: var(--white-color);
-    margin: 100px auto;
-    border-radius: 10px;
+body {
+  background-color: var(--main-bg-color);
+  font-family: "Outfit", sans-serif;
 }
 
-.image-container{
-    padding: 10px;
+.card-container {
+  width: 32rem;
+  height: 50rem;
+  background-color: var(--white-color);
+  margin: 100px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 10px rgba(136, 136, 136, 0.2);
 }
 
-
-
-.qr-img{
-    display:block;
-    width:95%;
-    margin: 10px auto;
-    border-radius: 10px;
-}
-.main-heading{
-    width: 90%;
-    margin: 10px auto;
-    padding-left: 20px;
+.image-container {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
+.qr-img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.main-heading {
+  color: var(--main-dark-blue);
+  font-size: 2rem;
+  margin: 0 1rem 2rem 1rem;
+  padding: 0 2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-weight: 700;
+}
 
+.main-text{
+    color: var(--main-gray-blue);
+    margin: 0 3rem 2rem 3rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 /*  FRONTEND MENTOR STYLES */
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
